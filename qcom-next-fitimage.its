@@ -181,15 +181,15 @@
 			fdt = "fdt-sa8775p-ride.dtb", "fdt-sa8775p-ride-camx.dtbo";
 		};
 		conf-26 {
-			compatible = "qcom,sa8775pv2-qam";
+			compatible = "qcom,sa8775pv2-qam-camx";
 			fdt = "fdt-sa8775p-ride.dtb", "fdt-sa8775p-ride-camx.dtbo";
 		};
 		conf-27 {
-			compatible = "qcom,sa8775p-qamr2";
+			compatible = "qcom,sa8775p-qamr2-camx";
 			fdt = "fdt-sa8775p-ride-r3.dtb", "fdt-sa8775p-ride-camx.dtbo";
 		};
 		conf-28 {
-			compatible = "qcom,sa8775pv2-qamr2";
+			compatible = "qcom,sa8775pv2-qamr2-camx";
 			fdt = "fdt-sa8775p-ride-r3.dtb", "fdt-sa8775p-ride-camx.dtbo";
 		};
 	};
