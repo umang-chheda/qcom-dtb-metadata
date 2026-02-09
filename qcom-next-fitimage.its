@@ -49,6 +49,14 @@
 			data = /incbin/("./arch/arm64/boot/dts/qcom/qcs615-ride.dtb");
 			type = "flat_dt";
 		};
+		fdt-talos-evk.dtb {
+			data = /incbin/("./arch/arm64/boot/dts/qcom/talos-evk.dtb");
+			type = "flat_dt";
+		};
+		fdt-talos-evk-lvds-auo,g133han01.dtb {
+			data = /incbin/("./arch/arm64/boot/dts/qcom/talos-evk-lvds-auo,g133han01.dtb");
+			type = "flat_dt";
+		};
 		fdt-sa8775p-ride.dtb {
 			data = /incbin/("./arch/arm64/boot/dts/qcom/sa8775p-ride.dtb");
 			type = "flat_dt";
@@ -203,6 +211,22 @@
 		conf-31 {
 			compatible = "qcom,qcs5430-iot-subtype9";
 			fdt = "fdt-qcs6490-rb3gen2-industrial-mezzanine.dtb";
+		};
+		conf-32 {
+			compatible = "qcom,qcs615-iot";
+			fdt = "fdt-talos-evk.dtb";
+		};
+		conf-33 {
+			compatible = "qcom,qcs615-iot-subtype6";
+			fdt = "fdt-talos-evk-lvds-auo,g133han01.dtb";
+		};
+		conf-34 {
+			compatible = "qcom,qcs615v1.1-iot";
+			fdt = "fdt-talos-evk.dtb";
+		};
+		conf-35 {
+			compatible = "qcom,qcs615v1.1-iot-subtype6";
+			fdt = "fdt-talos-evk-lvds-auo,g133han01.dtb";
 		};
 	};
 };
