@@ -213,19 +213,19 @@
 			fdt = "fdt-qcs6490-rb3gen2-industrial-mezzanine.dtb";
 		};
 		conf-32 {
-			compatible = "qcom,qcs615-evk";
+			compatible = "qcom,qcs615-iot";
 			fdt = "fdt-talos-evk.dtb";
 		};
 		conf-33 {
-			compatible = "qcom,qcs615-evk-subtype6";
+			compatible = "qcom,qcs615-iot-subtype6";
 			fdt = "fdt-talos-evk-lvds-auo,g133han01.dtb";
 		};
 		conf-34 {
-			compatible = "qcom,qcs615v1.1-evk";
+			compatible = "qcom,qcs615v1.1-iot";
 			fdt = "fdt-talos-evk.dtb";
 		};
 		conf-35 {
-			compatible = "qcom,qcs615v1.1-evk-subtype6";
+			compatible = "qcom,qcs615v1.1-iot-subtype6";
 			fdt = "fdt-talos-evk-lvds-auo,g133han01.dtb";
 		};
 	};
